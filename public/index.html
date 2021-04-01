@@ -1,0 +1,22 @@
+<html>
+<title>Web Page Design</title>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+</head>
+
+<body>
+    <div class="All Components">
+        <h1 id="Status">Waiting For Status Update</h1>
+        <input type="text" id="Addy" placeholder="Token Address"><br>
+        <input type="text" id="Block" placeholder="Start Block Number"><br>
+        <H3>Format  :-  Hash,from,amount,to,blockNumber</H3>
+        <textarea id="displayBox" name="displayBox" rows="20" cols="100"></textarea>
+        <hr>
+        <button id="processButton">Get All Transactions</button>
+    </div>
+    <script type="text/javascript" src="/index.js"></script>
+
+</body>
+</html>

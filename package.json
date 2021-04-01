@@ -1,0 +1,15 @@
+{
+  "name": "project-0.c",
+  "version": "1.0.0",
+  "description": "Test App 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "author": "Hentai Ousama",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
